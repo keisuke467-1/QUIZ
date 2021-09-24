@@ -1,16 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-
+  <eagle title="問題" message="てすと" comment="a"/>
+    <eagle title="問題2" message="てすと" comment="b"/>
 </template>
 
 <script>
-// import eagle from './components/eagle.vue'
+import eagle from './components/eagle.vue'
 
 
 export default {
   name: 'App',
   components: {
-    // eagle111
+    eagle
   }
 }
 </script>
