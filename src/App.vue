@@ -1,16 +1,21 @@
 <template>
-  <eagle title="問題" message="てすと" comment="a"/>
-    <eagle title="問題2" message="てすと" comment="b"/>
+  <Que que="問題" message="ゴルフにおいてPar5で2打でカップインするとスコアは次のどれになるでしょう?"/>
+    <Ans ans="A:ボギー"/>
+    <Ans ans="B:パー"/>
+    <Ans ans="C:バーディー"/>
+    <Ans ans="D:イーグル"/>
 </template>
 
 <script>
-import eagle from './components/eagle.vue'
+import Que from './components/Que.vue'
+import Ans from './components/Ans.vue'
 
 
 export default {
   name: 'App',
   components: {
-    eagle
+    Que,
+    Ans,
   }
 }
 </script>
